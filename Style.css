@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px auto;
+    width: 60%;
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;  /* qui ho utilizzato background-attachment-position, per evitare di far ripetere lo sfondo in eventuali ridimensionamenti della finesta. */
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body>section{
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
+    padding: 10%;
+}
+
+.logo{
+    width: 180px ;
+    height: 80px;
+}
+
+#top-page,footer{
+    text-align: center;
+}
+
+header>div>span{
+    color: #00DD00;
+    font-size: 30px;
+}
+
+nav div{
+    background-color: #00DD00;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+main>section>div>section{
+    display: block;
+    font-size: 15px;
+    color: white;
+    margin-top: 2px;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin: 20px 0px 5px 0px ;
+}
+
+#carica1{
+    background-color: #F5B453 ;
+    padding-right:  200px;
+    border-radius: 5px;
+}
+#carica2{
+    background-color: #5cfc00 ;
+    padding-right: 400px;
+    border-radius: 5px;
+}
+#carica3{
+    background-color: #ff0000 ;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+
+footer>span:last-of-type{
+    font-style: italic;
+    font-size: 10px;
+}
+footer>span:first-of-type{
+    font-weight: bold;
+    font-size: 15px;
+}
+
